@@ -60,10 +60,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: "#121212", // Dark background
+    backgroundColor: "#121212",
   },
   card: {
-    backgroundColor: "#1E1E1E", // Darker card background
+    backgroundColor: "#1E1E1E",
     borderRadius: 15,
     padding: 20,
     marginVertical: 10,
@@ -74,20 +74,20 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.25,
     shadowRadius: 3.5,
-    elevation: 5, // For Android shadow
+    elevation: 5,
   },
   logoutContainer: {
     marginTop: 30,
     alignItems: "center",
   },
   logoutButton: {
-    backgroundColor: "#FFFFFF", // Set background color to white
+    backgroundColor: "#FFFFFF",
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 5,
   },
   logoutButtonText: {
-    color: "#121212", // Dark text color for contrast
+    color: "#121212",
     fontSize: 16,
     fontWeight: "600",
   },

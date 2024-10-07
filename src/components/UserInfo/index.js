@@ -30,42 +30,42 @@ const styles = StyleSheet.create({
   },
   username: {
     fontSize: 15,
-    fontWeight: "600", // Semi-bold font weight for iOS style
-    color: "#FFFFFF", // White text color
+    fontWeight: "600",
+    color: "#FFFFFF",
     marginTop: 10,
   },
   fullName: {
     fontSize: 30,
-    fontWeight: "bold", // Bold font weight for full name
-    color: "#FFFFFF", // White text color
+    fontWeight: "bold",
+    color: "#FFFFFF",
     marginVertical: 5,
   },
   bio: {
     fontSize: 14,
-    fontWeight: "400", // Regular font weight for iOS style
-    color: "#FFFFFF", // White text color
+    fontWeight: "400",
+    color: "#FFFFFF",
     textAlign: "center",
   },
   statsContainer: {
     flexDirection: "row",
-    justifyContent: "space-around", // Distributes space evenly
+    justifyContent: "space-around",
     width: "60%",
     marginTop: 10,
   },
   followersContainer: {
-    alignItems: "center", // Center the text
+    alignItems: "center",
   },
   followingContainer: {
-    alignItems: "center", // Center the text
+    alignItems: "center",
   },
   statsNumber: {
     fontSize: 20,
-    fontWeight: "600", // Semi-bold font weight
-    color: "#00FFFF", // Change the color of the number here
+    fontWeight: "600",
+    color: "#00FFFF",
   },
   statsLabel: {
     fontSize: 14,
-    color: "#FFFFFF", // White text color for labels
+    color: "#FFFFFF",
   },
 });
 

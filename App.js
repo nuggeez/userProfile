@@ -14,6 +14,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F8F4E1", // Vintage background
+    backgroundColor: "#F8F4E1",
   },
 });

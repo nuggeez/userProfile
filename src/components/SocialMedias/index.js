@@ -8,11 +8,10 @@ import {
   Image,
 } from "react-native";
 
-// Import your icons
 const icons = {
-  Instagram: require("../../assets/instagram.webp"), // Update with your path
-  Twitter: require("../../assets/twitter.webp"), // Update with your path
-  Facebook: require("../../assets/facebook.webp"), // Update with your path
+  Instagram: require("../../assets/instagram.webp"),
+  Twitter: require("../../assets/twitter.webp"),
+  Facebook: require("../../assets/facebook.webp"),
 };
 
 const SocialMedias = ({ socialMedias }) => {
@@ -52,21 +51,21 @@ const styles = StyleSheet.create({
   title: {
     fontWeight: "bold",
     marginBottom: 5,
-    color: "#FFFFFF", // White text color
+    color: "#FFFFFF",
   },
   socialMediaContainer: {
     flexDirection: "row",
-    alignItems: "center", // Align items vertically centered
+    alignItems: "center",
     marginVertical: 2,
   },
   icon: {
-    width: 20, // Adjust size as needed
-    height: 20, // Adjust size as needed
-    marginRight: 10, // Space between icon and text
+    width: 20,
+    height: 20,
+    marginRight: 10,
   },
   socialMedia: {
     fontSize: 16,
-    color: "#FFFFFF", // White text color
+    color: "#FFFFFF",
   },
 });
 

@@ -1,11 +1,10 @@
 import React from "react";
 import { View, Text, StyleSheet, Image } from "react-native";
 
-// Import your hobby icons
 const hobbyIcons = {
-  Watching: require("../../assets/netf.webp"), // Update with your path
-  Gaming: require("../../assets/robxx.jpg"), // Update with your path
-  Eating: require("../../assets/food.jpg"), // Update with your path
+  Watching: require("../../assets/netf.webp"),
+  Gaming: require("../../assets/robxx.jpg"),
+  Eating: require("../../assets/food.jpg"),
 };
 
 const Hobbies = ({ hobbies }) => {
@@ -36,16 +35,16 @@ const styles = StyleSheet.create({
   },
   hobbyList: {
     flexDirection: "row",
-    flexWrap: "wrap", // Allows items to wrap to the next line
-    justifyContent: "center", // Center align the items
+    flexWrap: "wrap",
+    justifyContent: "center",
   },
   hobbyContainer: {
     alignItems: "center",
-    margin: 10, // Adjust spacing between hobbies
+    margin: 10,
   },
   icon: {
-    width: 50, // Adjust size as needed
-    height: 50, // Adjust size as needed
+    width: 50,
+    height: 50,
   },
   hobby: {
     fontSize: 16,
